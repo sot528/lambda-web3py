@@ -1,4 +1,4 @@
-FROM amazonlinux
+FROM amazonlinux@sha256:9c691dbdd098f3e40f36ba87ba251818795dc6cf8c22d0c7665144f9fd6d5fee
 
 RUN yum install -y vi git gcc zip wget libssl-dev zlib-devel bzip2 \
         bzip2-devel readline-devel sqlite sqlite-devel openssl-devel
